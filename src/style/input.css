@@ -1,0 +1,68 @@
+/* Custom Styles for the NORMAL state */
+.custom-normal {
+    /* border: none; */
+    outline: none;
+    background-color: #ffffff; /* Assumed from bg-style-1-eef0f6 */
+    display: block;
+    width: "full";
+    border-radius: 0.5rem; /* Converted from rounded-lg */
+    padding: 0.5rem; /* Converted from py-2 px-2 */
+  }
+  
+  /* Custom Styles for the ERROR state */
+  .custom-error {
+    border: none;
+    outline: none;
+    display: block;
+    width: 100%;
+    border-radius: 0.5rem; /* Converted from rounded-l-lg */
+    padding: 0.5rem; /* Converted from py-2 px-2 */
+    background-color: rgba(255, 0, 0, 0.1); /* Converted from bg-red-500 bg-opacity-10 */
+  }
+  
+  .custom-error::placeholder {
+    color: #d25656; /* Converted from placeholder-[#D25656] */
+  }
+  
+  /* Custom Styles for the DISABLED state */
+  .custom-disabled {
+    border: none;
+    outline: none;
+    background-color: #eef0f6; /* Assumed from bg-style-1-eef0f6 */
+    display: block;
+    width: 100%;
+    border-radius: 0.5rem; /* Converted from rounded-lg */
+    padding: 0.5rem; /* Converted from py-2 px-2 */
+  }
+  
+  .text-error{
+    padding: 0;
+    margin: 0;
+    color: #d25656;
+  }
+
+  .input-container {
+    position: relative;
+    width: 100%;
+    
+  }
+  
+  .input-container .form-control {
+    width: 100%;
+    padding-right: 40px; /* เพื่อให้มีพื้นที่สำหรับไอคอน */
+  }
+  
+  .input-container .icon-container {
+    position: absolute;
+    right: 10px;
+    top: 42%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+
+  .color-hasError {
+    background-color: #d25656; 
+    opacity: 10;
+  }
+ 
+  
